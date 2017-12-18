@@ -48,6 +48,7 @@ appMenu.addItem(quitMenuItem)
 item.submenu = appMenu
 
 let name = ProcessInfo.processInfo.processName
+print(name)
 
 let window = Window(contentRect: NSMakeRect(0, 0, CGFloat(w), CGFloat(h)), styleMask: .titled, backing: .buffered, defer: false)
 window.cascadeTopLeft(from: NSPoint(x: 20, y: 20))
