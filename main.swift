@@ -22,7 +22,7 @@ while let c = readLine() {
     content += c + "\n"
 }
 
-NSApplication.shared()
+NSApplication.shared
 NSApp.setActivationPolicy(.regular)
 class load: NSObject, WKUIDelegate {
     
